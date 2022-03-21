@@ -1,0 +1,53 @@
+.titlecontainer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.title {
+    font-family: sans-serif;
+    color: #777777;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+    width: 100px;
+}
+
+.logoimage {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: #ededed;
+}
+
+.user {
+    align-content: center;
+    margin-left: auto;
+    padding-right: 20px;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+a {
+    color: #0011bb
+}
+
+a:visited {
+    color: #6600cc
+}

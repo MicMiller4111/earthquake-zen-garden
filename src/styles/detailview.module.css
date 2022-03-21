@@ -1,0 +1,42 @@
+.title {
+    font-family: sans-serif;
+    color: #444444;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titleList {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyName {
+    font-family: sans-serif;
+    font-size: 28px;
+    color:#444444;
+    font-weight: bold;
+}
+
+.value {
+    font-family: sans-serif;
+    font-size: 28px;
+    color:#777777;
+}
+
+.pad {
+    padding: 2px;
+}

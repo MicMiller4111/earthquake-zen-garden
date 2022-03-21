@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.titleList {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+
+.magList {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.magTitle {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.mag {
+    display: flex;
+    justify-content: center;
+}
+
+.timeList {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #0011bb
+}
+
+a:visited {
+    color: #6600cc
+}
+
+button {
+    font-weight: normal;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    font-family: sans-serif;
+    font-size: 28px;
+}

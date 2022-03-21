@@ -1,0 +1,17 @@
+.title {
+    font-family: sans-serif;
+    color: #444444;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
