@@ -1,9 +1,8 @@
 import React from "react";
 import data from "../data.json";
 import { useParams } from "react-router";
-import Enumerable from "linq";
 import { formatTime } from "../helpers/time-formatter";
-import style from "../styles/detailview.module.css"
+import style from "../styles/detailview.module.css";
 
 const DetailView = () => {
     const { id } = useParams();

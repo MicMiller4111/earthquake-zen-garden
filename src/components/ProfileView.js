@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data.json";
-import style from '../styles/profileview.module.css'
+import style from '../styles/profileview.module.css';
 
 const ProfileView = () => {    
     return <div>

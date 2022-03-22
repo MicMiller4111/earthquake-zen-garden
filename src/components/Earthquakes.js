@@ -1,16 +1,16 @@
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import data from "../data.json";
-import style from "../styles/earthquakes.module.css"
+import style from "../styles/earthquakes.module.css";
 import { formatTime } from "../helpers/time-formatter";
 
 const Earthquakes = () => {
-    const [sortConfig, setSortConfig] = useState({ "key": "place", "dir": "asc"})
+    const [sortConfig, setSortConfig] = useState({ "key": "place", "dir": "asc"});
     const features = [];
     data.data.features.forEach(feature => {
         var temp = feature.properties;
-        temp["id"] = feature.id
-        features.push(temp)
+        temp["id"] = feature.id;
+        features.push(temp);
     })
 
     useMemo(() => {
@@ -34,9 +34,8 @@ const Earthquakes = () => {
           direction = 'desc';
         }
         setSortConfig({ key, direction });
-      }
+      };
 
-    console.log(features)
     return <div className={style.container}>
         <table>
             <tr className={style.titleList}>

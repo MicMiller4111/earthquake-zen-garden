@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data.json";
-import style from '../styles/home.module.css'
+import style from '../styles/home.module.css';
 import Earthquakes from "./Earthquakes";
 
 const Home = () => {
